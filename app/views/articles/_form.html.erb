@@ -1,0 +1,11 @@
+<div class="row justify-content-center">
+  <div class="col-6 p-3">
+    <%= simple_form_for(article) do |f| %>
+    <%= f.label :title %><br>
+    <%= f.text_field :title %><br>
+    <%= f.label :content %><br>
+    <%= f.text_field :content %><br><br>
+    <%= f.submit %>
+    <% end %>
+  </div>
+</div>
